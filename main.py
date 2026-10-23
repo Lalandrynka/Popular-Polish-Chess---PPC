@@ -7,5 +7,5 @@ webview.create_window(
             resizable = None,
             easy_drag=True, 
             background_color = '#04D39F'
-                )
+            )
 webview.start()
