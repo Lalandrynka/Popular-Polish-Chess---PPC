@@ -1,1 +1,1 @@
-# Popular-Polish-Chess---PPC
+# Popular-Polish-ChessPlayers---PPCP
