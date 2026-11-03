@@ -4,13 +4,14 @@ body{
 }
 div{
     position: relative;
-    left: 200px;
+    left: 75px;
 }
-.przyciski{
+.buttons{
     background-color: aqua;
     text-align: center;
     font-size: 15px;
-    width: 80px;
+    font-weight: bolder;
+    width: 90px;
     height: 30px;
     position: relative;
     top: 5px;
@@ -30,11 +31,16 @@ a{
     text-decoration: none;
     text-align: center;
     font-size: 18px;
+    font-weight: bolder;
     width: 150px;
-    height: 20px;
+    height: 25px;
     display: block;
     border: 2px solid gray;
     position: relative;
     top: 10px;
-    left: 405px;
+    left: 415px;
+}
+footer{
+    position: absolute;
+    top: 95%;
 }

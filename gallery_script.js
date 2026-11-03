@@ -46,12 +46,12 @@ const descriptions = [
 
 let indexImage = 0;
 const picture = document.getElementById("picture");
-const h1 = document.getElementById("h1");
-const p = document.getElementById("p");
+const h1 = document.getElementById("h1_gallery");
+const p = document.getElementById("p_gallery");
 
 function GetDescription(id) {
     return descriptions.find(descriptions => descriptions.id === id); 
-}
+};
 
 function UpdateDescription() {
     const id = images[indexImage].id;
@@ -60,8 +60,8 @@ function UpdateDescription() {
     if(description) {
         h1.innerHTML = description.name;
         p.innerHTML = description.text;
-    }
-}
+    };
+};
 
 function Gallery (index) {
     indexImage = (index + images.length) % images.length;
@@ -69,7 +69,7 @@ function Gallery (index) {
     picture.alt = images[indexImage].alt;
 
     UpdateDescription();
-}
+};
 
 document.getElementById("button1").addEventListener("click", () => {
     Gallery(indexImage - 1)

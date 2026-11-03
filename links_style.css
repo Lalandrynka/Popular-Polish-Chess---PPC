@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(4, 211, 159);
+    overflow: hidden;
+}
+#button1_links{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 300px;
+    height: 25px;
+    display: block;
+    border: 2px solid gray;
+    position: absolute;
+    top: 10px;
+    left: 25%;
+}
+#a1_links{
+    background-color: aqua;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 150px;
+    height: 20px;
+    display: block;
+    border: 2px solid gray;
+    position: absolute;
+    left: 57%;
+    bottom: 96%;
+}
+.links{
+    background-color: yellowgreen;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    width: 450px;
+    height: 35px;
+    display: block;
+    border: 2px solid gray;
+    position: relative;
+    top: 50px;
+    left: 25%;
+}
+footer{
+    position: absolute;
+    top: 95%;
+}
+#p1_links{
+    font-size: 18px;
+}
