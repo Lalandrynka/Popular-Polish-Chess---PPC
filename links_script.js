@@ -31,7 +31,7 @@ function DisplayLinksButton() {
     a2_links.style.width = "300px";
 };
 
-function GetLinks(index) {
+function GetLinks() {
     list_url.forEach( item => {
         const div2_links = document.getElementById("div1_links");
         const a_links = document.createElement("a");
